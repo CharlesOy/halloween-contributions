@@ -1,18 +1,26 @@
 class Iso
-#  COLORS = [
-#    new obelisk.CubeColor().getByHorizontalColor(0xeeeeee),
-#    new obelisk.CubeColor().getByHorizontalColor(0xd6e685),
-#    new obelisk.CubeColor().getByHorizontalColor(0x8cc665),
-#    new obelisk.CubeColor().getByHorizontalColor(0x44a340),
-#    new obelisk.CubeColor().getByHorizontalColor(0x1e6823)
-#  ]
+  #  COLORS = [
+  #    new obelisk.CubeColor().getByHorizontalColor(0xeeeeee),
+  #    new obelisk.CubeColor().getByHorizontalColor(0xd6e685),
+  #    new obelisk.CubeColor().getByHorizontalColor(0x8cc665),
+  #    new obelisk.CubeColor().getByHorizontalColor(0x44a340),
+  #    new obelisk.CubeColor().getByHorizontalColor(0x1e6823)
+  #  ]
+
+  # COLORS = [
+  #   new obelisk.CubeColor().getByHorizontalColor(0xeeeeee),
+  #   new obelisk.CubeColor().getByHorizontalColor(0xffee4a),
+  #   new obelisk.CubeColor().getByHorizontalColor(0xffc501),
+  #   new obelisk.CubeColor().getByHorizontalColor(0xfe9600),
+  #   new obelisk.CubeColor().getByHorizontalColor(0x8a0000)
+  # ]
 
   COLORS = [
     new obelisk.CubeColor().getByHorizontalColor(0xeeeeee),
-    new obelisk.CubeColor().getByHorizontalColor(0xffee4a),
-    new obelisk.CubeColor().getByHorizontalColor(0xffc501),
-    new obelisk.CubeColor().getByHorizontalColor(0xfe9600),
-    new obelisk.CubeColor().getByHorizontalColor(0x8a0000)
+    new obelisk.CubeColor().getByHorizontalColor(0xc382f8),
+    new obelisk.CubeColor().getByHorizontalColor(0x7f4ca9),
+    new obelisk.CubeColor().getByHorizontalColor(0x420b6e),
+    new obelisk.CubeColor().getByHorizontalColor(0x3b026a)
   ]
 
   yearTotal           = 0
@@ -310,11 +318,11 @@ class Iso
 
   getSquareColor: (fill) ->
     color = switch fill.toLowerCase()
-      when 'rgb(238, 238, 238)', '#eeeeee' then COLORS[0]
-      when 'rgb(214, 230, 133)', '#d6e685', 'rgb(255, 238, 74)', '#ffee4a' then COLORS[1]
-      when 'rgb(140, 198, 101)', '#8cc665', 'rgb(255, 197, 1)',  '#ffc501' then COLORS[2]
-      when 'rgb(68, 163, 64)',   '#44a340', 'rgb(254, 150, 0)',  '#fe9600' then COLORS[3]
-      when 'rgb(30, 104, 35)',   '#1e6823', 'rgb(3, 0, 28)',     '#03001c' then COLORS[4]
+      when '#eeeeee' then COLORS[0]
+      when '#c6e48b' then COLORS[1]
+      when '#7bc96f' then COLORS[2]
+      when '#239a3b' then COLORS[3]
+      when '#196127' then COLORS[4]
 
   formatDateString: (dateStr, options) ->
     date = null
