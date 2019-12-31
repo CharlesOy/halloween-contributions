@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # Compile coffeescript
-coffee --compile --bare --output chrome src/iso.coffee
+coffee --compile --bare --output ../chrome iso.coffee
 # coffee --compile --bare --output firefox/isometric-contributions src/iso.coffee
 # coffee --compile --bare --output safari/isometric-contributions.safariextension src/iso.coffee
 

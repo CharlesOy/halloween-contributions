@@ -23,12 +23,20 @@ class Iso
   #   new obelisk.CubeColor().getByHorizontalColor(0x3e0070)
   # ]
   
+  # COLORS = [
+  #   new obelisk.CubeColor().getByHorizontalColor(0xeeeeee),
+  #   new obelisk.CubeColor().getByHorizontalColor(0x88d8e0),
+  #   new obelisk.CubeColor().getByHorizontalColor(0x6fbec5),
+  #   new obelisk.CubeColor().getByHorizontalColor(0x468c93),
+  #   new obelisk.CubeColor().getByHorizontalColor(0x0c383c)
+  # ]
+  
   COLORS = [
     new obelisk.CubeColor().getByHorizontalColor(0xeeeeee),
-    new obelisk.CubeColor().getByHorizontalColor(0x88d8e0),
-    new obelisk.CubeColor().getByHorizontalColor(0x6fbec5),
-    new obelisk.CubeColor().getByHorizontalColor(0x468c93),
-    new obelisk.CubeColor().getByHorizontalColor(0x0c383c)
+    new obelisk.CubeColor().getByHorizontalColor(0xe8f6a4),
+    new obelisk.CubeColor().getByHorizontalColor(0xbbcd67),
+    new obelisk.CubeColor().getByHorizontalColor(0x697b15),
+    new obelisk.CubeColor().getByHorizontalColor(0x445200)
   ]
 
   yearTotal           = 0

@@ -139,8 +139,8 @@
   font-size: 32px;
   font-weight: 600;
   line-height: 1;
-  color: #1e6823;
-  color: #0c383c;
+  color: #697B15;
+  color: #445200;
 }
 
 .ic-stats-meta {
@@ -186,33 +186,33 @@
 }
 
 .js-calendar-graph rect[fill="#c6e48b"] {
-  fill: #88d8e0;
+  fill: #E8F6A4;
 }
 
 .js-calendar-graph rect[fill="#7bc96f"] {
-  fill: #6fbec5;
+  fill: #BBCD67;
 }
 
 .js-calendar-graph rect[fill="#239a3b"] {
-  fill: #468c93;
+  fill: #697B15;
 }
 
 .js-calendar-graph rect[fill="#196127"] {
-  fill: #0c383c;
+  fill: #445200;
 }
 
 .contrib-legend li:nth-of-type(2) {
-  background-color: #88d8e0 !important;
+  background-color: #E8F6A4 !important;
 }
 
 .contrib-legend li:nth-of-type(3) {
-  background-color: #6fbec5 !important;
+  background-color: #BBCD67 !important;
 }
 
 .contrib-legend li:nth-of-type(4) {
-  background-color: #468c93 !important;
+  background-color: #697B15 !important;
 }
 
 .contrib-legend li:nth-of-type(5) {
-  background-color: #0c383c !important;
+  background-color: #445200 !important;
 }
